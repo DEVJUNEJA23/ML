@@ -1,1 +1,14 @@
 # ML
+
+MLFLOW_TRACKING_URI=https://dagshub.com/DEVJUNEJA23/ML.mlflow \
+MLFLOW_TRACKING_USERNAME=DEVJUNEJA23 \
+MLFLOW_TRACKING_PASSWORD=bcd556e172ca91d8df95d5b41cc7e341ce55f9bc \
+python script.py
+
+Run this to export as env variables:
+
+export MLFLOW_TRACKING_URI=https://dagshub.com/DEVJUNEJA23/ML.mlflow
+
+export MLFLOW_TRACKING_USERNAME=DEVJUNEJA23
+
+export MLFLOW_TRACKING_PASSWORD=bcd556e172ca91d8df95d5b41cc7e341ce55f9bc
