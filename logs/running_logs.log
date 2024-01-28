@@ -1,1 +1,33 @@
 [2024-01-28 04:44:27,942: INFO: main: Welcome DEv]
+[2024-01-28 05:20:34,381: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-28 05:20:34,403: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-28 05:30:35,352: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-28 05:30:35,355: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-28 05:33:27,683: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-28 05:33:27,689: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-28 05:33:27,696: INFO: common: created directory at: artifacts]
+[2024-01-28 05:33:27,702: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-28 05:33:27,706: INFO: 164383239: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-28 05:33:38,004: INFO: 164383239: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-28 05:40:38,988: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-28 05:40:38,991: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-28 05:40:38,995: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-28 05:40:38,996: INFO: common: created directory at: artifacts]
+[2024-01-28 05:40:38,997: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-28 05:40:38,997: ERROR: main: 'DataIngestion' object has no attribute 'extract_zip_file']
+Traceback (most recent call last):
+  File "C:\Users\dev23\desktop\ML\main.py", line 14, in <module>
+    data_ingestion.main()
+  File "c:\users\dev23\desktop\ml\src\cnnClassifier\pipeline\stage_01_data_ingestion.py", line 17, in main
+    data_ingestion.extract_zip_file()
+AttributeError: 'DataIngestion' object has no attribute 'extract_zip_file'
+[2024-01-28 05:42:57,019: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-28 05:42:57,023: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-28 05:42:57,025: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-28 05:42:57,025: INFO: common: created directory at: artifacts]
+[2024-01-28 05:42:57,026: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-28 05:42:57,027: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-28 05:43:06,203: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-28 05:43:07,087: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
