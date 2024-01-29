@@ -1,0 +1,6 @@
+{
+    "files.exclude": {
+        "**/artifacts": true
+    },
+    "explorer.excludeGitIgnore": true
+}

@@ -156,3 +156,81 @@ x==========x]
 [2024-01-29 02:07:52,687: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2024-01-29 02:18:08,719: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-29 02:18:08,722: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:18:08,727: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:18:08,728: INFO: common: created directory at: artifacts]
+[2024-01-29 02:18:08,729: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-29 02:18:08,730: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 02:18:30,567: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 02:18:31,560: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-29 02:19:42,499: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-01-29 02:19:42,502: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:19:42,506: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:19:42,506: INFO: common: created directory at: artifacts]
+[2024-01-29 02:19:42,508: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-01-29 02:19:42,509: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 02:20:11,350: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1vlhZ5c7abUKF8xXERIw6m9Te8fW7ohw3/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-01-29 02:20:12,278: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-01-29 02:20:29,399: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-29 02:20:29,399: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-29 02:20:30,958: INFO: stage_02_prepare_base_model: *******************]
+[2024-01-29 02:20:30,959: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-29 02:20:30,962: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:20:30,965: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:20:30,966: INFO: common: created directory at: artifacts]
+[2024-01-29 02:20:30,967: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-29 02:20:31,682: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-29 02:20:31,983: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-29 02:21:07,964: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-29 02:21:07,964: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-29 02:21:09,075: INFO: stage_02_prepare_base_model: *******************]
+[2024-01-29 02:21:09,075: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-01-29 02:21:09,078: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:21:09,080: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:21:09,081: INFO: common: created directory at: artifacts]
+[2024-01-29 02:21:09,082: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-01-29 02:21:09,677: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-01-29 02:21:09,986: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-01-29 02:21:16,073: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-29 02:21:16,074: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-29 02:21:16,742: INFO: stage_03_model_training: *******************]
+[2024-01-29 02:21:16,743: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-01-29 02:21:16,746: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:21:16,748: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:21:16,749: INFO: common: created directory at: artifacts]
+[2024-01-29 02:21:16,750: INFO: common: created directory at: artifacts\training]
+[2024-01-29 02:21:59,062: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-29 02:22:25,913: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-29 02:22:25,913: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-29 02:22:27,056: INFO: stage_03_model_training: *******************]
+[2024-01-29 02:22:27,056: INFO: stage_03_model_training: >>>>>> stage Training started <<<<<<]
+[2024-01-29 02:22:27,060: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:22:27,063: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:22:27,064: INFO: common: created directory at: artifacts]
+[2024-01-29 02:22:27,066: INFO: common: created directory at: artifacts\training]
+[2024-01-29 02:23:15,674: INFO: stage_03_model_training: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-01-29 02:23:23,857: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-01-29 02:23:23,858: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-01-29 02:23:28,434: INFO: stage_04_model_evaluation: *******************]
+[2024-01-29 02:23:28,435: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-01-29 02:23:28,437: INFO: common: yaml file: config\config.yaml loaded successfully]
+[2024-01-29 02:23:28,439: INFO: common: yaml file: params.yaml loaded successfully]
+[2024-01-29 02:23:28,441: INFO: common: created directory at: artifacts]
+[2024-01-29 02:23:46,741: INFO: common: json file saved at: scores.json]
+[2024-01-29 02:23:46,742: INFO: common: json file saved at: scores.json]
+[2024-01-29 02:23:46,743: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
